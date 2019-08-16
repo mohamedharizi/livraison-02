@@ -1,0 +1,204 @@
+body{
+    display: grid;
+    margin: 0px;
+    padding: 0px;
+    background: linear-gradient(grey, white) no-repeat;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+   
+}
+
+/* =======================HEADER + NAV    page home======================================================*/
+
+header{
+
+    grid-column: 1/ 5;
+    grid-row: auto;
+    
+
+}
+
+.titre{
+margin: auto;
+text-align: center;
+text-decoration-line: underline;
+
+
+}
+
+h2{
+
+    margin: auto;
+    text-align: center;  
+
+}
+
+
+header>nav>ul>li{
+    list-style: none;
+    display: inline;
+    float: right;
+    margin: 20px;
+    margin-right: 40px;
+    
+
+   
+    height: 50px;
+
+}
+
+
+header>nav>ul>li>a{
+
+    color: black;
+    
+    color:  #DAA520;
+    font-size: large;
+    background-color: black;   
+    padding: 1rem;
+ 
+}
+
+/*=======================MAIN   page home================================================================*/
+main{
+grid-column: 1/ 5;
+grid-row: auto;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    margin-top: 50px;
+   
+   
+   
+ 
+
+}
+
+.titre1{
+
+    font-size: 2rem;
+    margin-left: 5rem;
+    color: #282828;
+    text-decoration-line: underline;
+
+
+}
+
+.img1{
+
+    
+    grid-column: 1;
+    grid-row: auto;
+   margin-left: 5rem;
+    border: 2px black solid;
+    width: 35rem;
+
+
+}
+.text1{
+        margin-left: 2rem;
+        width: 35rem;
+      
+
+}
+
+
+.img3{
+    grid-column: 4;
+    grid-row: auto;
+width: 10rem;
+height: 10rem;
+float: right;
+border: 2px solid black;
+margin-right: 2rem;
+
+}
+
+
+/*========================ASIDE  page home=======================================================*/
+
+aside{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 3;
+    height: 30rem;
+    width: 90rem;
+    
+    }
+
+
+.text2{
+
+    grid-column: 1;
+    grid-row: 1;
+    width: 40rem;
+    margin-top: 5rem;
+    margin-left: 5rem;
+   
+
+}
+
+.img2{
+
+    
+    grid-column: 4;
+    grid-row: 1;
+   margin-left: 5rem;
+    border: 2px black solid;
+    width: 40rem;
+
+
+
+
+
+
+}
+
+
+
+
+
+/*=========================FOOTER  page home======================================================*/
+
+
+
+footer{
+
+grid-column: 1/ 5;
+grid-row: auto;
+background-color: #DAA520;
+text-align: center;
+
+}
+
+
+/*============================PAGE STAFF====================================*/
+
+.img-dr2{
+    grid-column: 1;
+    grid-row: auto;
+    margin-left: 8rem;
+    border: 2px solid black;
+
+    height: 15rem;
+}
+
+
+.img-dr4{
+    grid-column: 4;
+    grid-row: auto;
+    margin-left: 2rem;
+    border: 2px solid black;
+    height: 15rem;
+}
+
+.text2staff{
+
+grid-column: 2/ 4;
+grid-row: auto;
+margin-left: 15px;
+}
