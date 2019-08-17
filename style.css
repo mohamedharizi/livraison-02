@@ -2,9 +2,11 @@ body{
     display: grid;
     margin: 0px;
     padding: 0px;
-    background: linear-gradient(grey, white) no-repeat;
+    background: linear-gradient(grey,white, grey);
+    
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: auto;
+    grid-template-rows:  minmax(50px) auto;
+    
   
    
 }
@@ -50,9 +52,9 @@ header>nav>ul>li{
 header>nav>ul>li>a{
 
     color: black;
-    
+    border-radius: 15px;
     color:  #DAA520;
-    font-size: large;
+    font-size: 25px;
     background-color: black;   
     padding: 1rem;
  
@@ -95,6 +97,7 @@ main{
    margin-left: 5rem;
     border: 2px black solid;
     width: 35rem;
+    
 
 
 }
@@ -172,10 +175,7 @@ grid-row: auto;
 background-color: #DAA520;
 text-align: center;
 margin-bottom: 2px;
-
-}
-
-
+ }
 /*============================PAGE STAFF====================================*/
 
 .img-dr2{
@@ -207,14 +207,17 @@ margin-left: 15px;
 
 /*======================================HORAIRES====================================*/
 
-
 .tablo{
 
     grid-column: 2;
+    grid-row: auto;
     border: 2px solid black;
-    height: 60vh;
+    height: 50vh;
     width: 40vw;
     border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    
    
 }
 
@@ -222,18 +225,19 @@ margin-left: 15px;
     border: 2px solid black; 
     text-align: center;
 
-
+  
 }
-
 
 
 
 /*==============================URGENCE===============================================*/
 
+.text_plan{
+width: 450px;
+margin-top: 150px;
+margin-left: 50px;
 
-
-
-
+}
 
 
 
@@ -244,7 +248,9 @@ margin-left: 15px;
 /*=================================contact============================================*/
 .formulaire{
 margin-left: 40px;
-height: 700px;
+
+
 
 }
+
 
